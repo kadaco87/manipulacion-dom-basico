@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.container .card {
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 20%);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.container .card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-color: darkseagreen;
+    border: 2px solid #2a2b2f;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.esto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: column;
+}

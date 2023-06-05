@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM </title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+    <h1>Calculadora Basica</h1>
+    <div class=" container ">
+
+        <div class="card ">
+            <div class="box">
+                <input id="calculo1" placeholder="Escribe algo aqui" />
+                <input id="calculo2" placeholder="Escribe algo aqui" />
+                <button id="btnCalcular-1" onclick="btnSuma()">Suma</button>
+
+                <p id="resultado"></p>
+
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="box">
+                <input id="calculo3" placeholder="Escribe algo aqui" />
+                <input id="calculo4" placeholder="Escribe algo aqui" />
+                <button id="btnCalcular-2" onclick="btnResta()">Resta</button>
+
+                <p id="resultado2"></p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <input id="calculo5" placeholder="Escribe algo aqui" />
+                <input id="calculo6" placeholder="Escribe algo aqui" />
+                <button id="btnCalcular-3" onclick="operacion('*')">Multiplicar</button>
+
+                <p id="resultado3"></p>
+
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="box">
+                <input id="calculo7" placeholder="Escribe algo aqui" />
+                <input id="calculo8" placeholder="Escribe algo aqui" />
+                <button id="btnCalcular-4" onclick="btnDivision()">Dividir</button>
+
+                <p id="resultado4"></p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="./eventos_javascript.js"> // conecta el js con el html - ideal tener archivos separados
+        //console.log('hola mundo');
+
+    </script>
+</body>
+
+</html>
