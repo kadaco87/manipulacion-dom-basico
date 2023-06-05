@@ -27,4 +27,3 @@ console.log(document.getElementsByName('nombre')); //Accede a los elementos por 
 console.log(document.getElementsById('menu')); // Accede a los elementos por medio del identificador 'menu'
 console.log(document.querySelector('a')); // Accede al elemento por medio de la etiqueta 'a'. selecciona todos los elementos de tipo 'a' del documento
 console.log(document.querySelectorAll('a')); // Accede al elemento por medio de la etiqueta 'a'. selecciona a todos los elementos de tipo 'a' del docuemnto.
-// commit
